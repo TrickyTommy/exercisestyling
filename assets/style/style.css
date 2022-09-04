@@ -3,6 +3,10 @@ html {
   margin: 0;
   padding: 0;
 }
+header {
+  display: inline;
+  height: 100px;
+}
 
 .jumbotron {
   padding: 60px;
@@ -14,16 +18,17 @@ html {
   display: flex;
 }
 .figure-jumbotron {
-  background-color: black;
   width: 20%;
   display: flex;
 }
 .logo {
-  width: 90%;
+  width: 50%;
   border-radius: 10px;
 }
 .tittle {
-  width: 80%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
 }
 body {
   background-color: #e1ffee;
@@ -40,17 +45,20 @@ nav {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .li-navbar {
   font-size: 20px;
   list-style-type: none;
   text-align: center;
-  width: 120px;
-  color: rgb(11, 11, 11);
+  width: 200px;
+  color: rgb(248, 248, 248);
   margin: 5px;
 }
 .a-navbar {
+  color: rgb(2, 53, 255);
   text-decoration: none;
+  font-weight: 80;
 }
 .li-navbar:hover {
   background-color: #ffeeaf;
@@ -64,13 +72,29 @@ main {
 }
 .content {
   margin-left: 5px;
+  margin-right: 5px;
   width: 80%;
+}
+h2 {
+  padding: 5px;
+}
+article {
+  margin-top: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.article-content {
+  padding: 5px;
+  text-align: justify;
 }
 aside {
   width: 20%;
   background-color: #ffeeaf;
   text-align: center;
 }
+
 .profile {
   width: 90%;
   border-radius: 10px;
